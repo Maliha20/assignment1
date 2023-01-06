@@ -36,9 +36,9 @@
 }
 
 .primary-btn {
-    color:white;
+    color: white;
     font-weight: 600;
-font-size: 20px;
+    font-size: 20px;
 
     margin-top: 32px;
     width: 160px;
@@ -52,52 +52,102 @@ font-size: 20px;
 .primary-btn:hover {
     background-color: rgb(255, 191, 52);
 }
+
 /* Section 1 Starts*/
-.section1{
-    
+.section1 {
+
     display: flex;
-  justify-content: space-around;
-  gap: 5px;
+    justify-content: space-around;
+    gap: 5px;
 
 }
-.sec-1-container{
+
+.sec-1-container {
     margin-top: 150px;
-  margin-right: 300px;
+    margin-right: 300px;
     height: 300px;
     width: 300px;
     padding-top: 60px;
     text-align: left;
 
 }
-.sec-1-container li{
+
+.sec-1-container li {
     list-style: none;
-    
+
 
 }
-.sec-1-container li:before{
+
+.sec-1-container li:before {
     content: '✓';
     color: rgb(197, 20, 109);
-    font-size:20px;    
+    font-size: 20px;
 }
 
 
-.sec-1-title{
+.sec-1-title {
     margin-bottom: 10px;
     font-style: Bold;
-     font-size: 40px;
+    font-size: 40px;
     font-weight: 700px;
     text-align: left;
 }
-.sec-description{
+
+.sec-description {
     text-align: left;
     font-weight: 500px;
     font-size: 40px;
 }
-.sec-1-img{
+
+.sec-1-img {
     margin-top: 100px;
     margin-left: 160px;
 }
-.ul-sec-1{
+
+.ul-sec-1 {
     text-align: left;
-    
+
 }
+
+/* section-2 starts */
+.section-2{
+    margin: 0 230px;
+}
+
+.sec-2-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-2-title {
+    margin-top: 190px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.sec-2-info {
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 50px;
+}
+.sec-2-info-img {
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+.sec-2-info-title {
+
+    margin-bottom: 20px;
+    /* text-align: center; */
+    font-size: 30px;
+    font-style: bold;
+}
+
+.sec-2-info-description {
+    margin-bottom: 16px;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: 500px;
+
+}
+
